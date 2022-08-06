@@ -51,6 +51,4 @@ CyberCoin.addBlock(new Block(1,"06/08/2022",{amount: 4}));
 CyberCoin.addBlock(new Block(2,"08/08/2022",{amount: 10}));
 
 console.log(JSON.stringify(CyberCoin,null,4));
-//console.log('is Blockchain valid? ' + CyberCoin.isChainValid());
-CyberCoin.chain[1].data={amount:100};
 console.log('is Blockchain valid? ' + CyberCoin.isChainValid());
